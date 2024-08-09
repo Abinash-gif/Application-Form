@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form task</title>
+    <link rel="stylesheet" href="application form task.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="Heading" colspan="4">Application Form</th>
+        </tr>
+        <tr>
+            <td><label for="first name">First Name:</label>
+                <br><br>
+                <label for="DOB">Date of birth:</label>
+                <br><br>
+                <label for="gender">Gender :</label>
+            </td>
+            <td><input type="text" id="first name" name="first name">
+                <br><br>
+                <input type="date" id="DOB" name="DOB">
+                <br><br><input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </td>
+            <td><label for="last name">Last Name:</label>
+                <br><br>
+                <label for="Age">Age :</label>
+                <br><br>
+                <label for="email">Email :</label>
+            </td>
+            <td>
+                <input type="text" id="last name" name="last name">
+                <br><br>
+                <input type="number" id="Age" name="Age">
+                <br><br>
+                <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><br><label for="position">Positions Available:</label>
+                <input type="radio" id="position1" name="position" value="JD"><label for="position1">Junior
+                    Developer</label>
+                <input type="radio" id="position2" name="position" value="MLD"><label for="position2">Mid-level
+                    Developer</label>
+                <input type="radio" id="position3" name="position" value="SD"><label for="position3">Senior
+                    Developer</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><br><label for="PL">Programming Languages:</label>
+                <input type="checkbox" id="PL1" name="PL" value="Java"><label for="PL1">Java</label>
+                <input type="checkbox" id="PL2" name="PL" value="JavaScript"><label for="PL2">JavaScript</label>
+                <input type="checkbox" id="PL3" name="PL" value="Python"><label for="PL3">Python</label>
+                
+        </tr>
+        <tr>
+            <td colspan="2"><br><label for="Password">Password:</label>
+                <input type="password" name="Password" id="Password1">
+            </td>
+            <td colspan="2"><br><label for="Password2">Confirm Password:</label>
+                <input type="password" name="Password2" id="Password2">
+            </td>
+        </tr>
+        <tr>
+            <td class="buttons" colspan="4"><br><input type="button" value="Submit" class="button">
+                <input type="button" value="Reset" class="button">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
